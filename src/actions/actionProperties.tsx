@@ -33,6 +33,7 @@ import {
   TextAlignTopIcon,
   TextAlignBottomIcon,
   TextAlignMiddleIcon,
+  FontFamilyLaiIcon,
 } from "../components/icons";
 import {
   DEFAULT_FONT_FAMILY,
@@ -669,6 +670,11 @@ export const actionChangeFontFamily = register({
         value: FONT_FAMILY.Cascadia,
         text: t("labels.code"),
         icon: <FontFamilyCodeIcon theme={appState.theme} />,
+      },
+      {
+        value: FONT_FAMILY.Muyao,
+        text: "Muyao",
+        icon: <FontFamilyLaiIcon theme={appState.theme} />,
       },
     ];
 
